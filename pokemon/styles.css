@@ -24,16 +24,24 @@
 }
 
 #searchBar {
-    width: 400px;
+    width: 250px;
     margin: 0 auto;
 }
 
 .card {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     height: auto;
 }
 
-#pokename {
+.card-text {
     text-align: center;
+}
+
+#card-img {
+    background-color: white;
+    width: 150px;
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
 }

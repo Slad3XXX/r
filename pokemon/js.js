@@ -24,8 +24,10 @@ const fillCard = (data) => {
     const img = data.sprites.front_default;
     $("#card-img").attr("src", img);
     const name = data.name;
+    const id = data.id;
     $("#pokename").text(name);
-    console.log(img)
+    $("#pokeid").text("No " + id);
+
 
 }
 
