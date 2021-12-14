@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <form action="" id="template">
+
+        <div class="input-group mb-3" id="searchBar">
+            <input type="text" class="form-control" placeholder="Name or ID" id="search">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="serachbtn" onclick="fetchPoke()">Search</button>
+            </div>
+        </div>
+        <div class="card">
+
+            <img class="card-img-top" src="./rs/default.png" alt="Card image cap" id="card-img">
+            <div class="card-body">
+                <p class="card-text" id="pokename"></p>
+                <p class="card-text" id="pokeid"></p>
+            </div>
+        </div>
+    </form>
+
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <script src="js.js"></script>
+
+</body>
+
+
+</html>
